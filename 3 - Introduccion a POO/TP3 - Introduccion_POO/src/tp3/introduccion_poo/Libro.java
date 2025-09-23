@@ -18,7 +18,6 @@ public class Libro {
         return anioPublicacion;
     }
 
-     
     public void setTitulo(String titulo) {
         if (titulo != null) {
             this.titulo = titulo;
@@ -37,8 +36,5 @@ public class Libro {
         } else {
             System.out.println("Esa fecha es incorrecta. El año debe ser positivo y menor o igual a 2025");
         }
-
     }
-
-    
 }

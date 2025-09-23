@@ -10,6 +10,20 @@ package tp3.introduccion_poo;
 
 public class TP3Introduccion_POO {
 
+    public static void main(String[] args) {
+
+        System.out.println("\n----- EJERCICIO 1 ----------");
+        ejercicio1();
+        System.out.println("\n----- EJERCICIO 2 ----------");
+        ejercicio2();
+        System.out.println("\n----- EJERCICIO 3 ----------");
+        ejercicio3();
+        System.out.println("\n----- EJERCICIO 4 ----------");
+        ejercicio4();
+        System.out.println("\n----- EJERCICIO 5 ----------");
+        ejercicio5();
+    }
+    
     public static void ejercicio1() {
 
         Estudiante estudiante = new Estudiante();
@@ -118,18 +132,5 @@ public class TP3Introduccion_POO {
 
     }
 
-    public static void main(String[] args) {
-
-        System.out.println("\n----- EJERCICIO 1 ----------");
-        ejercicio1();
-        System.out.println("\n----- EJERCICIO 2 ----------");
-        ejercicio2();
-        System.out.println("\n----- EJERCICIO 3 ----------");
-        ejercicio3();
-        System.out.println("\n----- EJERCICIO 4 ----------");
-        ejercicio4();
-        System.out.println("\n----- EJERCICIO 5 ----------");
-        ejercicio5();
-    }
 
 }

@@ -1,6 +1,5 @@
 package tp3.introduccion_poo;
 
-
 public class Estudiante {
 
     String nombre;
@@ -21,7 +20,6 @@ public class Estudiante {
         } else {
             System.out.println("No es posible subir " + puntos + " punto/s. La calificacion maxima no puede superar a 10");
             System.out.println("Calificacion actual: " + calificacion);
-
         }
     }
 
@@ -34,7 +32,6 @@ public class Estudiante {
         } else {
             System.out.println("No es posible restar " + puntos + " punto/s. La calificacion mínima debe ser 0");
             System.out.println("Calificacion actual: " + calificacion);
-
         }
     }
 }
