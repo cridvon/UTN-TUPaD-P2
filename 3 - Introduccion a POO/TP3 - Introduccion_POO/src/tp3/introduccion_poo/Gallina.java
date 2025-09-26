@@ -1,6 +1,5 @@
 package tp3.introduccion_poo;
 
-
 public class Gallina {
 
     int idGallina;
@@ -16,7 +15,6 @@ public class Gallina {
     }
 
     public void mostrarEstado() {
-
         System.out.println("La gallina " + idGallina + " tiene " + edad + " años y ha puesto " + huevosPuestos + " huevos");
     }
 

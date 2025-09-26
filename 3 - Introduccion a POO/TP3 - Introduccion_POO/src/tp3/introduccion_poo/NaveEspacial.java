@@ -1,6 +1,4 @@
-
 package tp3.introduccion_poo;
-
 
 public class NaveEspacial {
 
